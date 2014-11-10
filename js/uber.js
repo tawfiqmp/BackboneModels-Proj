@@ -27,6 +27,12 @@
         }
     })
 
+    var Task = Backbone.Model.extend({
+
+    })
+    var t1 = new Task ({});
+    console.log(t1);
+
     function UberClient(options) {
         "use strict";
         this.options = _.extend({}, options, {
